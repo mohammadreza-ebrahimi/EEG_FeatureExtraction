@@ -170,36 +170,6 @@ np.save("all_windows_5p_list.npy", np.array(all_windows_5p, dtype=object), allow
 X_5.shape
 
 
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
 # # Loading Data
 
 # In[2]:
@@ -339,12 +309,6 @@ X_features = np.array(X_features)
 X_features.shape
 
 
-# In[ ]:
-
-
-
-
-
 # # without Power Spectral Density (PSD) analysis
 # - SVD (Singular Value Decomposition) Entropy calculation for each window
 
@@ -406,8 +370,6 @@ df = pd.DataFrame(
 
 df['subject_id'] = subject_ids
 df['label'] = labels
-
-
 
 
 # In[42]:
